@@ -79,6 +79,11 @@ a {
     font-size: 1.25rem;
     font-weight: 800;
 }
+.cardTitle:hover{
+    cursor: pointer;
+    color: hsl(47, 88%, 63%);
+    transition: all ease 350ms;
+}
 .cardText{
     margin-bottom: 1.75rem;
     font-size: 0.925rem;
