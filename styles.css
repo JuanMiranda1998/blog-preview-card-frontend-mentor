@@ -1,0 +1,110 @@
+@font-face {
+    font-family: Figtree;
+    src: url(./assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+}
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+input, button, textarea, select {
+    font: inherit;
+}
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+#root, #__next {
+    isolation: isolate;
+}
+a {
+    text-decoration: none;
+    font: inherit;
+    color: inherit;
+}
+.mainContainer{
+    min-width: 90lvw;
+    min-height: 100lvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(47, 88%, 63%);
+    font-family: Figtree;
+    color: hsl(0, 0%, 7%);
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    max-width: 350px;
+    padding: 1.5rem 1rem;
+    margin: 1rem auto;
+    border-radius: 20px;
+    border: 2px solid hsl(0, 0%, 7%);
+    background-color: hsl(0, 0%, 100%);
+    filter: drop-shadow(10px 10px hsl(0, 0%, 7%));
+}
+.cardImage{
+    margin-bottom: 0.5rem;
+    border-radius: 15px;
+}
+.cardTag{
+    margin: 1rem 0 0.5rem;
+    text-align: center;
+    width: 90px;
+    padding: 0.35rem 0.5rem;
+    border-radius: 5px;
+    font-size: 0.925rem;
+    font-weight: 800;
+    background-color: hsl(47, 88%, 63%);
+}
+.cardDate{
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+.cardTitle{
+    margin-bottom: 0.75rem;
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+.cardText{
+    margin-bottom: 1.75rem;
+    font-size: 0.925rem;
+    font-weight: 500;
+    color: hsl(0, 0%, 50%);
+}
+
+.cardUserInfo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+.userAvatar{
+    width: 32px;
+    height: 32px;
+}
+.userName{
+    font-size: 0.925rem;
+    font-weight: 800;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
